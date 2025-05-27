@@ -7,7 +7,7 @@ export default function Books() {
     <div className={styles.books}>
       {books.map((book) => {
         return (
-          <div className={styles.book}>
+          <div key={book.id} className={styles.book}>
             <span>author: {book.author}</span>
             <Link to={`/books/${book.id}`}>title: {book.title}</Link>
             <span>description: {book.description}</span>
