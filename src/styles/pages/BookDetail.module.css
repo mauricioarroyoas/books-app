@@ -1,0 +1,16 @@
+
+
+.bookDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  border: 3px solid orange;
+}
+
+.title {
+  border: 3px solid blue;
+}
+
+.description {
+  border: 3px solid magenta;
+}
